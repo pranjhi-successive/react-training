@@ -1,3 +1,5 @@
+import React from "react";
+
 const Weather = ({ temperature }) => {
   let message;
   if (temperature > 25) {

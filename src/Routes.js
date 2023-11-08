@@ -9,8 +9,10 @@ import Home1 from './modules/assignment-3/Questions/question3/Home1';
 import ProductList from './modules/assignment-3/Questions/question6/Productlist';
 import ProductDetail from './modules/assignment-3/Questions/question6/Details';
 import Login from './modules/assignment-3/Questions/question4/Loginform';
+import React from "react";
 import products from './modules/assignment-3/Questions/question6/Data';
 import Assignment4 from './modules/assignment-4';
+import Assignment5 from './modules/assignment-5';
 
 
 const Router = () => {
@@ -29,6 +31,7 @@ const Router = () => {
                 <Route path="/products" element={<ProductList products={products} />} />
                 <Route path="/products/:id" element={<ProductDetail products={products} />}/>
                 <Route path="/assignment-4" element={<Assignment4 />} />
+                <Route path="/assignment-5" element={<Assignment5/>}/>
 
 
             </Routes>
