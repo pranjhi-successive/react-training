@@ -1,33 +1,33 @@
 import React from "react";
 
 import "./a2.css";
-import Counter from "./Questions/question1/counter";
-import PersonForm from "./Questions/question2/personform";
-import ToDoList from "./Questions/question3/todolist";
-import RandomNumberGenerator from "./Questions/question4/randomnumbergenerator";
-import CounterWithStep from "./Questions/question5/counterwithstep";
-import Clock from "./Questions/question6/clock";
-import Notification from "./Questions/Question7/notification";
-import Slideshow from "./Questions/question8/slideshow";
-import CountdownTimer from "./Questions/question19/countdowntimer";
+import Counter from "./questions/question1/counter";
+import PersonForm from "./questions/question2/personform";
+import ToDoList from "./questions/question3/todolist";
+import RandomNumberGenerator from "./questions/question4/randomnumbergenerator";
+import CounterWithStep from "./questions/question5/counterwithstep";
+import Clock from "./questions/question6/clock";
+import Notification from "./questions/Question7/notification";
+import Slideshow from "./questions/question8/slideshow";
+import CountdownTimer from "./questions/question19/countdowntimer";
 
-import Button from "./Questions/question9/themeswitch";
-import { LanguageProvider } from "./Questions/question10/languagecontext";
+import Button from "./questions/question9/themeswitch";
+import { LanguageProvider } from "./questions/question10/languagecontext";
 import {
   Content,
   LanguageSwitcher,
-} from "./Questions/question10/languageswitch";
-import { CartProvider } from "./Questions/question 11/cartcontext";
-import Product from "./Questions/question 11/products";
-import ShoppingCart from "./Questions/question 11/shopping";
-import Voting from "./Questions/question12/voting";
-import Parent from "./Questions/question13/parent";
-import Task from "./Questions/question14/task";
-import StudentList from "./Questions/question15/studentlist";
-import EmployeeSalary from "./Questions/question16/employeesalary";
-import CopyToClipboardButton from "./Questions/question17/clipboard";
-import UserPreferences from "./Questions/question18/useLocalStorage";
-import { ThemeProvider } from "./Questions/question9/themeContext";
+} from "./questions/question10/languageswitch";
+import { CartProvider } from "./questions/question11/cartcontext";
+import Product from "./questions/question11/products";
+import ShoppingCart from "./questions/question11/shopping";
+import Voting from "./questions/question12/voting";
+import Parent from "./questions/question13/parent";
+import Task from "./questions/question14/task";
+import StudentList from "./questions/question15/studentlist";
+import EmployeeSalary from "./questions/question16/employeesalary";
+import CopyToClipboardButton from "./questions/question17/clipboard";
+import UserPreferences from "./questions/question18/useLocalStorage";
+import { ThemeProvider } from "./questions/question9/themeContext";
 const Assignment2=()=> {
   const tasks = [
     { id: 1, title: 'SLEEPING' },

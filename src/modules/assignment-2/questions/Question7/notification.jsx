@@ -4,7 +4,8 @@ const Notification = () => {
   const [message, setMessage] = useState("Message");
   useEffect(() => {
     if (message) {
-      const time = setInterval(() => {
+      const time = setTimeout(() => {
+        console.log("hello")
         setMessage("");
       }, 5000);
       return () => {

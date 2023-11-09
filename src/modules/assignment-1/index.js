@@ -3,7 +3,7 @@ import React from 'react';
 import Greeting from './questions/question1/greeting';
 import UserCard from './questions/question2/usercard';
 import Weather from './questions/question3/weather';
-import Counter from './questions/question4/counter';
+import Counter from './questions/question4/Counter';
 import TaskList from './questions/question5/tasklist';
 import Button from './questions/question6/button';
 

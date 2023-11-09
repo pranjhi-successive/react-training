@@ -9,6 +9,7 @@ const Navigation = () => {
         <Link to="/assignment-3">Assignment-3</Link>
         <Link to="/assignment-4">Assignment-4</Link>
         <Link to="/assignment-5">Assignment-5</Link>
+        <Link to="/assignment-6">Assignment-6</Link>
 
       </nav>
     </>
