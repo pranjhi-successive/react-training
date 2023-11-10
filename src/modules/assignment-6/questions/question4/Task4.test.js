@@ -1,6 +1,6 @@
 import React from "react";
 import { render, fireEvent, screen } from "@testing-library/react";
-import "@testing-library/jest-dom/extend-expect"; // Replace with the correct path to your LoginForm component
+import "@testing-library/jest-dom/extend-expect"; 
 import LoginForm from "./TestLogin";
 
 test("Form fields can be filled", () => {
@@ -8,8 +8,6 @@ test("Form fields can be filled", () => {
 
   const usernameInput = screen.getByPlaceholderText("Username");
   const passwordInput = screen.getByPlaceholderText("Password");
-
-  // Simulate user input
   fireEvent.change(usernameInput, { target: { value: "pranjhi" } });
   fireEvent.change(passwordInput, { target: { value: "123" } });
 
