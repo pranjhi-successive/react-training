@@ -1,9 +1,9 @@
 import React from "react";
 import {  Link } from "react-router-dom";
 import "./a3.css";
-import { AuthenticationProvider } from "./Questions/question1/authentication";
-import ChildComponent from "./Questions/question1/child";
-import { PreferencesProvider } from "./Questions/question2/preference";
+import { AuthenticationProvider } from "./questions/question1/authentication";
+import ChildComponent from "./questions/question1/child";
+import { PreferencesProvider } from "./questions/question2/preference";
 
 
 const Assignment3 = () => {

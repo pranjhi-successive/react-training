@@ -45,7 +45,7 @@ const  Task12=()=> {
   };
 
   return (
-    <div >
+    <>
       <h1>Sample Application</h1>
       <Button style={primaryButtonStyles} onClick={handlePrimaryClick}>
         Primary Button
@@ -56,7 +56,7 @@ const  Task12=()=> {
       <Button style={dangerButtonStyles} onClick={handleDangerClick}>
         Danger Button
       </Button>
-    </div>
+    </>
   );
 }
 

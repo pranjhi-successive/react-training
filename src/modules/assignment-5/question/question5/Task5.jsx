@@ -13,12 +13,14 @@ const Task51 = () => {
         const response = await axios.get(`https://restcountries.com/v3.1/all?limit=10&page=${page}`);
         const newCountries = response.data;
         setCountries((prevCountries) => [...prevCountries, ...newCountries]);
+    
         setIsLoading(false);
       } catch (error) {
         console.error('Error fetching data:', error);
         setIsLoading(false);
       }
     };
+    
 
     fetchCountries();
   }, [page]);

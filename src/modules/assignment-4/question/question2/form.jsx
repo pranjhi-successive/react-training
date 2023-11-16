@@ -4,7 +4,7 @@ function ControlledForm() {
     name: " ",
     filled: false,
     email: " ",
-    phoneNo: " ",
+    phoneNumber: " ",
     gender: " ",
   });
   const handleInputChange = (event) => {
@@ -70,7 +70,7 @@ function ControlledForm() {
         <div>
           <label>Phone Number:</label>
           <input
-            type="MobileNo"
+            type="tel"
             name="phoneNumber"
             value={form.phoneNumber}
             onChange={handleInputChange}

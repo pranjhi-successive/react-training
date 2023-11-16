@@ -19,6 +19,11 @@ const PasswordForm=()=> {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (formData.username.trim() === "" || formData.password.trim() === "" || formData.confirmPassword.trim() === "") {
+      alert("Please fill in all fields");
+      return;
+    }
+  
     if (formData.password === formData.confirmPassword) {
       alert("Verification is successful");
     } else {
@@ -26,6 +31,7 @@ const PasswordForm=()=> {
       setPasswordMatch(false);
     }
   };
+  
 
   return (
     <div>

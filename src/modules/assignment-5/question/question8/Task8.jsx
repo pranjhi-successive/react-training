@@ -10,7 +10,7 @@ const client = new ApolloClient({
   cache: new InMemoryCache(),
 });
 const GET_COUNTRIES = gql`
-  query MyQuery {
+query getCountries  {
     countries {
       edges {
         node {
