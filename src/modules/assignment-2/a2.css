@@ -1,0 +1,460 @@
+.counter{
+  border: 1px solid black;
+  background-color: rgb(232, 235, 191);
+  color: rgb(0, 0, 0);
+  padding: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align:center;
+  display: inline-block;
+  margin: 30px;
+  border-radius: 20px;
+
+}
+.counter button {
+  background-color: #7ad6bb;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 5px;
+  height:50px;
+  width:100px;
+}
+button {
+  font-size: 20px;     
+  padding: 10px 10px;
+  cursor: pointer;
+  border: 1px solid black;}
+
+.personform{
+  border: 1px solid black;
+  background-color: rgb(232, 235, 191);
+  color: rgb(8, 7, 7);
+  padding: 40px;
+  margin: 20px;
+  border-radius: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align:left;
+  display: inline-block;
+  margin: 20px;
+  border-radius: 20px;
+}
+label {
+  font-weight: bold;
+  color: #000000;
+
+}
+input{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 20px;
+
+}
+.todolist{
+  border: 1px solid black;
+  background-color: rgb(232, 235, 191);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align:center;
+  display: inline-block;
+  border-radius: 20px;
+}
+.todolist-input{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+
+}
+
+.random-number-generator{
+  border: 1px solid black;
+  background-color:rgb(232, 235, 191);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align:center;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+
+button {
+  font-size: 20px;     
+  padding: 15px 10px;
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+
+  margin-right: 10px;
+
+}
+
+button:hover {
+  background-color: #0056b3;
+
+}
+
+.step-counter{
+  border: 1px solid black;
+  background-color: rgb(232, 235, 191);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  font-size: 35px;
+  font-weight: bold;
+  text-align:center;
+  display: inline-block;
+  border-radius: 20px;
+}
+.clock{
+  border: 1px solid black;
+  background-color: rgb(232, 235, 191);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  font-size: 35px;
+  font-weight: bold;
+  text-align:center;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.slideshow {
+  background-color: rgb(232, 235, 191);
+  padding: 40px;
+  margin: 20px;
+  background-size: cover;
+  width: 960px;
+  height: 800px;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-bottom: 20px;
+
+
+}
+.slide{
+  border: 1px solid black;
+  background-color: rgb(193, 230, 231);
+  color: rgb(0, 0, 0);
+  padding: 45px;
+
+  text-align:center;
+  display: inline-block;
+  border-radius: 20px;
+  margin: 20px;
+
+}
+.controls{
+  border: 1px solid black;
+  background-color: rgb(231, 214, 226);
+  color: rgb(214, 196, 196);
+  padding: 20px;
+  text-align:left;
+  display: inline-block;
+  border-radius: 20px;
+
+
+}
+.pause{
+  background-color: #f44336; 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.play{
+  background-color: #4CAF50; 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.notification{
+  background-color: #dbd7ad; 
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  display:inline-block
+  
+}
+.countdowntimer{
+  border: 1px solid black;
+  background-color: rgb(232, 235, 191);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  font-size: 35px;
+  font-weight: bold;
+  text-align:center;
+  display: inline-block;
+  border-radius: 20px;
+
+}
+/* App.css */
+body.light {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+body.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+h1 {
+  margin-top: 20px;
+  color: inherit;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+}
+button.light {
+  background-color: #4CAF50; 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button.dark {
+  background-color: #f44336; 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.language{
+  border: 1px solid black;
+  background-color: rgb(232, 235, 191);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align:center;
+  display: inline-block;
+  border-radius: 20px;
+
+}
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  display: inline-block;
+  text-align: center;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.product h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.product button {
+  background-color: #0074cc;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.product button:hover {
+  background-color: #005a9c;
+}
+
+.shopping-cart {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 400px;
+  display: inline-block;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.shopping-cart h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.shopping-cart ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.shopping-cart li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.shopping-cart button {
+  background-color: #ff5252;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.shopping-cart button:hover {
+  background-color: #e60000;
+}
+
+.shopping-cart p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.shopping-cart button.clear-cart {
+  background-color: #000000;
+  text-align:center;
+}
+
+.shopping-cart button.clear-cart:hover {
+  background-color: #000000;
+
+}
+
+.shopping{
+  border: 1px solid black;
+  background-color: rgb(232, 235, 191);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align:center;
+  display: inline-block;
+  border-radius: 20px;
+}
+.vote{
+  border: 1px solid black;
+  background-color: rgb(232, 235, 191);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align:center;
+  display: inline-block;
+  border-radius: 20px;
+  width: 500px;
+}
+.vote button{
+  background-color: #f00909;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 5px;
+  height:40px;
+}
+.themes{
+  border: 1px solid black;
+  background-color: rgb(232, 235, 191);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align:center;
+  display: inline-block;
+  border-radius: 20px;
+}
+.themes button{
+  background-color: #f00909;
+  color: rgb(255, 255, 255);
+  border: 1px solid black;
+  padding: 10px 10px;
+  cursor: pointer;
+  margin-top: 5px;
+  height:60px;
+  width: 200px;
+  font-size: 25px;
+}
+.parent{
+  border: 1px solid black;
+  background-color: rgb(232, 235, 191);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align:center;
+  display: inline-block;
+  border-radius: 20px;
+}
+.task{
+  border: 1px solid black;
+  background-color: rgb(232, 235, 191);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align:center;
+  display: inline-block;
+  border-radius: 20px; 
+}
+.studentlist{
+  border: 1px solid black;
+  background-color: rgb(232, 235, 191);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align:center;
+  display: inline-block;
+  border-radius: 20px; 
+}
+.salary{
+  border: 1px solid black;
+  background-color: rgb(232, 235, 191);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align:center;
+  display: inline-block;
+  border-radius: 20px; 
+}
+.copy{
+  border: 1px solid black;
+  background-color: rgb(232, 235, 191);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align:center;
+  display: inline-block;
+  border-radius: 20px; 
+}
+.storage{
+  border: 1px solid black;
+  background-color: rgb(232, 235, 191);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align:center;
+  display: inline-block;
+  border-radius: 20px; 
+}

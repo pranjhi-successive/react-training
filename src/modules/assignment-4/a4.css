@@ -1,0 +1,192 @@
+ h1 {
+  font-size: 40pxpx;
+  color: #010101;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+  color: #075dfd;
+  margin-bottom: 10px;
+}
+
+.in {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  display: inline-block;
+}
+
+.in p {
+  margin: 10px 0;
+}
+
+.in input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.for{
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #f0f0f0; 
+  display: inline-block;
+}
+input{
+   padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+}
+.message{
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #f0f0f0; 
+  display: inline-block;
+
+}
+.password{
+  margin:20px;
+  font-family: Arial,  sans-serif;
+  text-align: left;
+  padding: 20px;
+  border:1px solid black;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  display: inline-block;
+}
+button{
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.app{
+  text-align: center;
+}
+.drop{
+  margin:20px;
+  font-family: Arial,  sans-serif;
+  text-align: left;
+  padding: 20px;
+  border:1px solid black;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  display: inline-block;
+}
+.todo{
+  margin:20px;
+  font-family: Arial,  sans-serif;
+  text-align: left;
+  padding: 20px;
+  border:1px solid black;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  display: inline-block;
+}
+li{
+  align-items: center;
+  text-align: center;
+}
+.search{
+  margin:20px;
+  font-family: Arial,  sans-serif;
+  text-align: left;
+  padding: 20px;
+  border:1px solid black;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  display: inline-block;
+}
+.converter{
+  margin:20px;
+  font-family: Arial,  sans-serif;
+  text-align: left;
+  padding: 20px;
+  border:1px solid black;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  display: inline-block;
+}
+.validation{
+  margin:20px;
+  font-family: Arial,  sans-serif;
+  text-align: left;
+  padding: 20px;
+  border:1px solid black;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  display: inline-block;
+
+}
+.modal{
+  margin:20px;
+  font-family: Arial,  sans-serif;
+  text-align: left;
+  padding: 20px;
+  border:1px solid black;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  display: inline-block;
+}
+.datatable{
+  margin:20px;
+  font-family: Arial,  sans-serif;
+  text-align: left;
+  padding: 20px;
+  border:1px solid black;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  display: inline-block; 
+}
+.yup{
+  margin:20px;
+  font-family: Arial,  sans-serif;
+  text-align: left;
+  padding: 20px;
+  border:1px solid black;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  display: inline-block;
+}
+.new{
+  margin:20px;
+  font-family: Arial,  sans-serif;
+  text-align: left;
+  padding: 20px;
+  border:1px solid black;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  display: inline-block;
+}
+.sidebar{
+  margin:20px;
+  font-family: Arial,  sans-serif;
+  text-align: left;
+  padding: 20px;
+  border:1px solid black;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  display: inline-block;
+}
